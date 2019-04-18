@@ -16,6 +16,8 @@ public class TestSpecil {
     public  void TestJb(){
         SqlSession sqlSession = MybatisUtils.getSqlSession(false);
         System.out.println( sqlSession.getConnection());
+
+        System.out.println();
     }
 
     public static void main(String[] args) {
